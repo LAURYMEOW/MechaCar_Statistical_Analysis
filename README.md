@@ -22,7 +22,7 @@ Image 1 shows the results of the multiple linear regression model:
 
 #### Image 1
 
-![Total Summary](https://github.com/LAURYMEOW/MechaCar_Statistical_Analysis/blob/main/Resources/Total%20Summary.png)
+![Multiple regression model](https://github.com/LAURYMEOW/MechaCar_Statistical_Analysis/blob/main/Resources/Multiple%20regression%20model.png)
 
 The first detail that stands out is that the calculated coefficients are in exponential format, which allows us to see that there is some variable that requires a transformation of its data (it is possible that the size of the vehicle_weight data is generating this noise). .
 Assuming that the above does not affect the results, the summary says the following:
@@ -63,7 +63,7 @@ To evaluate the above, two summary tables of the main statistics were made. The 
 
 #### Image 2
 
-![]
+![Total Summary](https://github.com/LAURYMEOW/MechaCar_Statistical_Analysis/blob/main/Resources/Total%20Summary.png)
 
 It can be seen that in general the variance of the aggregate data of the variable PSI of the suspension coils does not exceed 100 pounds per square inch.
 However, when the lots analysis is done (see image 3) it is observed that the variance in the third lot does not meet the established limit, it exceeds the allowed pounds per square inch by 70.
@@ -71,7 +71,7 @@ This allows us to conclude that the manufacturing process is not being consisten
 
 #### Image 3
 
-![]
+![Lot summary](https://github.com/LAURYMEOW/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_summary.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually?
 Why or why not?
@@ -87,7 +87,7 @@ Recall that the null hypothesis states that there is no statistical difference b
 
 #### Image 4
 
-![]
+![T test total](https://github.com/LAURYMEOW/MechaCar_Statistical_Analysis/blob/main/Resources/t_test%20total.png)
 
 Image 4 shows that the p-value (0.0603) is slightly higher at the 0.05% level of significance.
 Therefore, in this test there is not enough statistical evidence to reject the null hypothesis.
@@ -96,7 +96,7 @@ Therefore, in this test there is not enough statistical evidence to reject the n
 
 #### Image 5
 
-![]
+![t test lot1](https://github.com/LAURYMEOW/MechaCar_Statistical_Analysis/blob/main/Resources/t_test%20Lot1.png)
 
 In image 5 it can be seen that the p-value is equal to 1 because the means of the sample and the population are identical.
 Therefore, it is evident that there is enough statistical evidence to not reject the null hypothesis.
@@ -105,7 +105,7 @@ Therefore, it is evident that there is enough statistical evidence to not reject
 
 #### Image 6
 
-![]
+![t test lot2](https://github.com/LAURYMEOW/MechaCar_Statistical_Analysis/blob/main/Resources/t_test%20Lot2.png)
 
 The statistical data show a p-value for this test of 0.6072, well above the 0.05% level of significance.
 From the above, we can conclude that there is no statistical difference between the mean of lot2 and the population mean.
@@ -114,7 +114,7 @@ From the above, we can conclude that there is no statistical difference between 
 
 #### Image 7
 
-![]
+![t test lot3](https://github.com/LAURYMEOW/MechaCar_Statistical_Analysis/blob/main/Resources/t_test%20Lot3.png)
 
 Considering that the difference between the means in this lot is greater and that the statistical test shows a p-value of 0.0417, which is slightly below the 0.05% level of significance.
 It can be concluded that there is enough statistical evidence to reject the null hypothesis in this case.
