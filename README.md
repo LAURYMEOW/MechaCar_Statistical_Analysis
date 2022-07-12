@@ -4,15 +4,15 @@
 
 We are interested in knowing which of the following variables determine the behavior of the mpg variable.
 
--vehicle_length,
+##### -vehicle_length,
 
--vehicle_weight,
+##### -vehicle_weight,
 
--spoiler_angle,
+##### -spoiler_angle,
 
--ground_clearance,
+##### -ground_clearance,
 
--AWD
+##### -AWD
 
 To find out, the following function has been generated, which will be evaluated as a multiple linear regression model:
 
