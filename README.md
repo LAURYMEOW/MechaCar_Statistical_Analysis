@@ -22,7 +22,7 @@ Image 1 shows the results of the multiple linear regression model:
 
 #### Image 1
 
-![]
+![Total Summary]https://github.com/LAURYMEOW/MechaCar_Statistical_Analysis/blob/main/Resources/Total%20Summary.png
 
 The first detail that stands out is that the calculated coefficients are in exponential format, which allows us to see that there is some variable that requires a transformation of its data (it is possible that the size of the vehicle_weight data is generating this noise). .
 Assuming that the above does not affect the results, the summary says the following:
