@@ -5,14 +5,18 @@
 We are interested in knowing which of the following variables determine the behavior of the mpg variable.
 
 -vehicle_length,
+
 -vehicle_weight,
+
 -spoiler_angle,
+
 -ground_clearance,
+
 -AWD
 
 To find out, the following function has been generated, which will be evaluated as a multiple linear regression model:
 
-mpg=f(vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD)
+### mpg=f(vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, AWD)
 
 Image 1 shows the results of the multiple linear regression model:
 
@@ -126,21 +130,21 @@ Failure to do so can have negative consequences for the company's quality rating
 In this new study we want to evaluate the behavior of our consumers regarding improvements in security that our new model offers them.
 The objective is to prove that our new model is competitive in the market of the same class due to the implementation of more security elements.
 
-What metric or metrics are you going to test?
+##### What metric or metrics are you going to test?
 
 -We will quantify and evaluate if a model with greater security elements is more attractive to consumers than a mid-range car.
 
-What is the null hypothesis or alternative hypothesis?
+##### What is the null hypothesis or alternative hypothesis?
 
 Ho. The null hypothesis would be that consumers are indifferent whether or not the safety of their cars is increased.
 Ha. The alternative hypothesis would be that more security elements do have an effect on consumer decisions.
 
-What statistical test would you use to test the hypothesis? And why?
+##### What statistical test would you use to test the hypothesis? And why?
 
 It is very likely that we need a Chi-squared test because we have two categorical variables.
 And an ANOVA to compare the samples.
 
-What data is needed to run the statistical test?
+##### What data is needed to run the statistical test?
 
 The security elements information of the competition.
 The results of a survey of potential consumers of mid-range cars.
